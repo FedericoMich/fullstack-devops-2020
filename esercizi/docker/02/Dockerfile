@@ -1,3 +1,3 @@
 FROM alpine
 RUN apk update && apk add figlet
-CMD figlet hello world
+CMD ["figlet ", "Hello World"]

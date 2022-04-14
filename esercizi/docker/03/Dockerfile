@@ -1,3 +1,3 @@
 FROM alpine
-CMD rev /app/invertimi.txt
-COPY /app/invertimi.txt /app/invertimi.txt
+COPY invertimi.txt /app/invertimi.txt
+CMD ["rev", "/app/invertimi.txt"]
